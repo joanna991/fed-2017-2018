@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('AmaticSC-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Shadows Into Light Two';
+  src: url('ShadowsIntoLightTwo-Regular.ttf')  format('truetype');
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Amatic SC', helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.3em;
+    font-weight: normal;
+    text-align: left;
+    color: rgb(128, 128, 247);
+}
+
+h1 {
+    font-family: 'Amatic SC', helvetica, arial, sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Shadows Into Light Two', helvetica, arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Shadows Into Light Two', helvetica, arial, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color:rgb(0, 110, 255); 
+}
+
+
+li{
+    color:rgb(0, 110, 255); 
+}
+
+    .wrapper {
+        max-width: 960px;
+        height: auto;
+        margin: 10px auto 10px auto;
+        background: #FFF;
+        padding: 40px;
+        font-size: 20px;
+    }
+
+        .header {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+            border-bottom: 2px solid #444;
+        }
+
+        .foto {
+            width: 45%;
+            float: right;
+            margin-left: 45px;
+            margin-bottom: -45px;
+            margin-right: -290px;
+            margin-top: -80px;
+        }
+        
+            .foto img {
+                width: 100%;
+                height: auto;   
+            }
+            .image{
+                width: 50%;
+                margin-left: 15px;
+                margin-bottom: 15px;
+            }
+            .cat {
+                width: 15%;
+                height: auto;
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+            .bicycle{
+                width: 20%;
+                height: auto;
+                margin-right: 15px;
+                margin-left: 15px;
+                margin-bottom: -15px;
+            }
+            .movie{
+                width: 15%;
+                height: auto;
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+            .book{
+                width: 15%;
+                height: auto;
+                margin-right: 15px;
+                margin-left: 15px;
+                margin-bottom: -10px;
+            }
+ 
+                .name {
+                    width: 60%;
+                    float: left;
+                    color: rgb(0, 110, 255); 
+                    margin-right: 40px;
+            }
+
+            .content {
+                display: inline-block;
+            }
+
+            .section {
+                display: inline-block;
+                border-bottom: 1px solid #444;
+                
+            }
+
+            .section:last-child {
+                border-bottom: 1px  #444;
+                width:
+            }
+
+            .left {
+                width: 15%;
+                float: left;
+                margin-right: 130px;
+                margin-bottom: 5px;
+
+            }
+
+            .right {
+                width: 50%;
+                float: right;
+                margin-right: -50px;
+                margin-bottom: 5px;
+            }
+table{
+    margin-right: 100px;
+}
+            .tab th, td {
+                background-color: rgb(128, 128, 247);
+                padding: 10px 15px 10px 15px;
+                color: #fff;
+                font-size: 1.7em;
+                border: 1px solid #fff;
+            }
+            .ta-1 {
+                width: 100%;
+                float: right;
+            }
+            .ta-2 {
+                width: 100%;
+                float: right; 
+            }
+            .ta-3 {
+                width: 100%;
+                float: right; 
+            }
+
+        .footer .contact {
+            display: inline-block;
+            width: 100%;
+            position: relative;
+            margin-left: 17%;
+        }
+
+            .footer .contact ul {
+                list-style-type: none;
+            }
+
+            .footer .contact ul li {
+                float: left;
+                margin-right: 25px;
+            }
+
+            .footer .contact ul a {
+                color: rgb(0, 119, 255);
+                text-decoration: none;
+            }
+
+            .footer .contact ul a:hover {
+                color: #444;
+            }
+
+            #myDIV {
+                display: none;
+            }
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+            input[type=submit]{
+                background-color: rgb(128, 128, 247);
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+            button {
+                background-color: rgb(128, 128, 247);
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .cancelbtn {
+                padding: 14px 20px;
+                background-color: #36aef4;
+            }
+
+            .cancelbtn,.signupbtn {
+                float: left;
+                width: 50%;
+                background-color: rgb(128, 128, 247);
+            }
+
+            .container {
+                padding: 16px;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            
+            @media screen and (max-width: 300px) {
+                .cancelbtn, .signupbtn {
+                   width: 100%;
+                }
+            }
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
